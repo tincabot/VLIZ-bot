@@ -5,6 +5,7 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 const gokuopcion = `🚩 *OPCIONES PARA GRUPOS*
 
 ${usedPrefix + command} welcome
+${usedPrefix + command} autoaceptar
 ${usedPrefix + command} detect
 ${usedPrefix + command} antidelete
 ${usedPrefix + command} antilink
@@ -64,6 +65,19 @@ global.dfail('admin', m, conn)
 throw false
 }
 chat.detect = isEnable
+break
+
+case 'autoaceptar': case 'aceptarnuevos':
+if (!m.isGroup) {
+if (!isOwner) {
+global.dfail('group', m, conn)
+throw false
+}
+} else if (!isAdmin) {
+global.dfail('admin', m, conn)
+throw false
+}
+chat.autoAceptar = isEnable
 break
 
 case 'antidelete': case 'antieliminar': case 'delete':
