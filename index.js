@@ -16,17 +16,17 @@ const rl = createInterface(process.stdin, process.stdout);
 say('Goku\nBot-MD', {
 font: 'block',
 align: 'center',
-colors: ['red']
+colors: ['white']
 });
 say(`Multi Device`, {
 font: 'chrome',
 align: 'center',
-colors: ['White']
+colors: ['white']
 });
 say(`Developed By • Jostin207`, {
 font: 'console',
 align: 'center',
-colors: ['yellow']
+colors: ['red']
 });
 var isRunning = false;
 function start(file) {
