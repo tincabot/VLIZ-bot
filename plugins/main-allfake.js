@@ -2,6 +2,7 @@ import pkg from '@whiskeysockets/baileys'
 import fs from 'fs'
 import fetch from 'node-fetch'
 import axios from 'axios'
+import PhoneNumber from 'awesome-phonenumber'
 import moment from 'moment-timezone'
 const { generateWAMessageFromContent, prepareWAMessageMedia, proto } = pkg
 
@@ -27,11 +28,14 @@ return res.data
 console.log(`Error : ${e}`)
 }}
 
-let pp = ''
-let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-//let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
+const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+global.fotoperfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://qu.ax/QGAVS.jpg')
+let api = await axios.get(`https://deliriussapi-oficial.vercel.app/tools/country?text=${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}`)
+let userNationalityData = api.data.result
+global.userNationality = userNationalityData ? `${userNationalityData.name} ${userNationalityData.emoji}` : 'Desconocido'
 
 //creador y otros
+global.channelid = '120363310433406751@newsletter'
 global.creador = 'Wa.me/593939005387'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 global.asistencia = 'Wa.me/593978663361'
