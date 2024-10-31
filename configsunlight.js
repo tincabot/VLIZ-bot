@@ -489,6 +489,12 @@ global.rpgshopp = { // Tienda
     else return emotttt[results[0][0]];
   }};
 
+//no editar.
+global.ch = {
+ch1: '120363310433406751@newsletter',
+ch2: '120363263466636910@newsletter',
+}
+
 const file = fileURLToPath(import.meta.url);
 watchFile(file, () => {
   unwatchFile(file);
