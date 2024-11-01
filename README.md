@@ -59,7 +59,9 @@ https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 ### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=4000&pause=1000&color=FF0099&width=435&lines=%F0%9F%92%96+AGRADECIMIENTOS+" alt="Typing SVG" /></a>
 
 <a
-href="https://github.com/Dev-Diego"><img src="https://github.com/Dev-Diego.png" width="100" height="100" alt="OfcDiego"/></a>
+href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="100" height="100" alt="Shadow Brokers"/></a>
+<a
+href="https://github.com/Dev-Diego"><img src="https://github.com/Dev-Diego.png" width="100" height="100" alt="DevDiego"/></a>
 <a
 href="https://github.com/GataNina-Li/GataBot-MD"><img src="https://github.com/GataNina-Li.png" width="100" height="100" alt="GataDios"/></a>
 
