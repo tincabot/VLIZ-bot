@@ -8,7 +8,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   let user = global.db.data.users[m.sender]
   let name2 = conn.getName(m.sender)
   if (user.registered === true) return m.reply(`🍭 Ya estás registrado.\n\n*¿Quiere volver a registrarse?*\n\nUse este comando para eliminar su registro.\n*${usedPrefix}unreg*`)
-  if (!Reg.test(text)) return m.reply(`🌹 Formato incorrecto.\n\nUso del comamdo: *${usedPrefix + command} nombre.edad*\nEjemplo : *${usedPrefix + command} ${name2}.666*`)
+  if (!Reg.test(text)) return m.reply(`🌹 Formato incorrecto.\n\nUso del comamdo: *${usedPrefix + command} nombre.edad*\nEjemplo : *${usedPrefix + command} ${name2}.18*`)
   let [_, name, splitter, age] = text.match(Reg)
   if (!name) return m.reply('🚩 El nombre no puede estar vacío.')
   if (!age) return m.reply('🚩 La edad no puede estar vacía.')
@@ -32,7 +32,7 @@ regbot += `「✨️」𝗘𝗱𝗮𝗱: ${age} años\n`
 regbot += `•┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•\n`
 regbot += `「🎁」𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗮𝘀:\n`
 regbot += `• 15 Cookies 🍪\n`
-regbot += `• 5 MiniCoins 🪙\n`
+regbot += `• 5 GokuCoins 🪙\n`
 regbot += `• 245 Experiencia 💸\n`
 regbot += `• 12 Tokens 💰\n`
 regbot += `•┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•\n`
