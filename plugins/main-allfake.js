@@ -35,7 +35,7 @@ let userNationalityData = api.data.result
 global.userNationality = userNationalityData ? `${userNationalityData.name} ${userNationalityData.emoji}` : 'Desconocido'
 
 //creador y otros
-global.channelid = '120363220442272685@newsletter'
+global.channelid = '120363310433406751@newsletter'
 global.creador = 'Wa.me/593939005387'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 global.asistencia = 'Wa.me/593978663361'
