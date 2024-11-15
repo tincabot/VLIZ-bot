@@ -23,7 +23,7 @@ https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 | WhatsApp | Canal Sunlight | [¡Click aquí!](https://whatsapp.com/channel/0029Vam7yUg77qVaz3sIAp0z) |
 | WhatsApp | Grupo GokuBot-MD | [¡Click aquí!](https://chat.whatsapp.com/Gd85w1s6tKh5Nw4p490xBw) |
 | WhatsApp | Gp SixFin | [¡Click aquí!](https://chat.whatsapp.com/K0rTI0UA1O12w72A1CsQSH) |
-| WhatsApp | Canal Akira Host | [¡Click aquí!](https://whatsapp.com/channel/0029VajfXO7CnA7zhERSe63s) |
+| WhatsApp | Canal SkyUltraPlus | [¡Click aquí!](https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g) |
 
 ### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=DFF700&width=435&lines=%F0%9F%92%96+GRUPO+DEL+BOT+%F0%9F%92%96" alt="Typing SVG" /></a>
 
