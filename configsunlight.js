@@ -14,9 +14,9 @@ global.confirmCode = ''
 
 //• ↳𝑺𝑶𝑳𝑶 𝑫𝑬𝑺𝑨𝑹𝑹𝑶𝑳𝑳𝑨𝑫𝑶𝑹𝑬𝑺 𝑨𝑷𝑹𝑶𝑩𝑨𝑫𝑶𝑺
 global.owner = [
-['593939005387', '👑 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 👑', true],
-['573012482597', '𝗢𝘄𝗻𝗲𝗿 👑', true],
-['593978663361', '𝗢𝘄𝗻𝗲𝗿 II 👑', true], ['50558124470'], ['5491168758497'], ['595972157130']
+['8293800240', '👑 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 👑', true],
+['7173892621', '𝗢𝘄𝗻𝗲𝗿 👑', true],
+['8495154002', '𝗢𝘄𝗻𝗲𝗿 II 👑', true], ['8495154002'], ['7173892621'], ['7173892621']
 ]
 
 //• ↳𝑺𝑶𝑳𝑶 𝑴𝑶𝑫𝑬𝑹𝑨𝑫𝑶𝑹𝑬𝑺!
@@ -26,10 +26,10 @@ global.suittag = ['593939005387']
 global.prems = []
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
-global.packname = '➳✰ 𝐆𝐨𝐤𝐮 𝐁𝐨𝐭 - 𝐌𝐃 ✰⪜'
+global.packname = '➳✰ Vliz 𝐁𝐨𝐭 - 𝐌𝐃 ✰⪜'
 global.author = 'ᴊᴏsᴛɪɴ 👑'
 global.wm = '🌻◌*̥₊ ɢᴏᴋᴜBᴏᴛ-MD ◌❐🌻༉'
-global.titulowm = 'GokuBot-MD ✨'
+global.titulowm = 'VlizBot-MD ✨'
 global.titulowm2 = 'Jostin'
 global.igfg = '𝙹𝙾𝚂𝚃𝙸𝙽'
 global.botname = 'ɢᴏᴋᴜ Bᴏᴛ - MD 🚩'
@@ -41,22 +41,6 @@ global.vs = '2.0.2'
 global.imagen1 = fs.readFileSync('./Menu.jpg')
 global.imagen2 = fs.readFileSync('./Menu2.jpg')
 global.imagen3 = fs.readFileSync('./Menu3.jpg')
-
-//• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp1 = 'https://chat.whatsapp.com/Gd85w1s6tKh5Nw4p490xBw' //Grupo Oficial De Goku
-global.gp2 = 'https://chat.whatsapp.com/KQA5YEnMMhE9PQODSh6I7B' //Grupo Oficial De Goku 2 
-global.gp3 = 'https://chat.whatsapp.com/FOS2BU04peN3cQaiDmLq0j' //MinatoBot-MD
-global.gp4 = 'https://chat.whatsapp.com/CquCkU6IRso81EUpgjiQU0' //NilouBot Y Goku 
-global.gp5 = 'https://chat.whatsapp.com/Hn9ecr7zPh15aYh4TvW7h5' //Grupo oficial de sunlight
-global.comunidad1 = 'https://chat.whatsapp.com/KjdhZK4SpUm31errurbEC2' //Comunidad Goku
-global.comunidad2 = 'https://chat.whatsapp.com/IizMPKj6y9ZK3P1jiVnE1D' //Comunidad de SunLight //Listo
-global.channel = 'https://whatsapp.com/channel/0029VaJL0xn0LKZL7FtiRs1e' //Canal Oficial
-global.channel2 = 'https://whatsapp.com/channel/0029Vam7yUg77qVaz3sIAp0z' //Canal Sunlight Team //Listo
-global.yt = 'https://www.youtube.com/@Jostin207Oficialmanito' //Canal De Youtube
-global.md = 'https://github.com/Jostin207/GokuBot-MD' //Github Oficial
-global.fb = 'https://www.facebook.com/JostinOfici' //Facebook Del Propietario
-global.ig = 'https://www.instagram.com/jostin207ofc' // Instagram Del Propietario.
-global.tiktok = 'https://tiktok.com/@gokubot_md' //Cuenta tiktok
 
 //• ↳ ◜𝑻𝑰𝑬𝑴𝑷𝑶◞ • 🕒
 global.d = new Date(new Date + 3600000);
